@@ -2,17 +2,17 @@ const offerCards = [
   { 
     title: "First Order Discount", 
     badge: "-30%", 
-    image: "https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&w=400"
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop"
   },
   { 
     title: "Vegan Discount", 
     badge: "-20%", 
-    image: "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400"
+    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=400&h=300&fit=crop"
   },
   { 
     title: "Free Ice Cream Offer", 
     badge: "-100%", 
-    image: "https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=400"
+    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=300&fit=crop"
   }
 ];
 
@@ -31,12 +31,12 @@ const menuTabs = [
 ];
 
 const burgerImages = [
-  "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=200",
-  "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=200",
-  "https://images.pexels.com/photos/1556688/pexels-photo-1556688.jpeg?auto=compress&cs=tinysrgb&w=200",
-  "https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&w=200",
-  "https://images.pexels.com/photos/580612/pexels-photo-580612.jpeg?auto=compress&cs=tinysrgb&w=200",
-  "https://images.pexels.com/photos/1552641/pexels-photo-1552641.jpeg?auto=compress&cs=tinysrgb&w=200"
+  "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&h=200&fit=crop",
+  "https://images.unsplash.com/photo-1550547660-d9450f859349?w=200&h=200&fit=crop",
+  "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=200&h=200&fit=crop",
+  "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=200&h=200&fit=crop",
+  "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=200&h=200&fit=crop",
+  "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=200&h=200&fit=crop"
 ];
 
 const friesImages = [
@@ -49,12 +49,12 @@ const friesImages = [
 ];
 
 const drinkImages = [
-  "https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg?auto=compress&cs=tinysrgb&w=200",
-  "https://images.pexels.com/photos/1552630/pexels-photo-1552630.jpeg?auto=compress&cs=tinysrgb&w=200",
-  "https://images.pexels.com/photos/434295/pexels-photo-434295.jpeg?auto=compress&cs=tinysrgb&w=200",
-  "https://images.pexels.com/photos/1571878/pexels-photo-1571878.jpeg?auto=compress&cs=tinysrgb&w=200",
-  "https://images.pexels.com/photos/2853226/pexels-photo-2853226.jpeg?auto=compress&cs=tinysrgb&w=200",
-  "https://images.pexels.com/photos/1938347/pexels-photo-1938347.jpeg?auto=compress&cs=tinysrgb&w=200"
+  "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=200&h=200&fit=crop",
+  "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=200&h=200&fit=crop",
+  "https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=200&h=200&fit=crop",
+  "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=200&h=200&fit=crop",
+  "https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?w=200&h=200&fit=crop",
+  "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=200&h=200&fit=crop"
 ];
 
 const menuItems = Array.from({ length: 6 }, (_, index) => ({
@@ -110,7 +110,7 @@ export default function Home() {
               <p className="text-sm text-slate-500">1,360 reviews</p>
             </div>
             <img 
-              src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=600" 
+              src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&h=400&fit=crop" 
               alt="McDonald's burger meal"
               className="h-64 w-full rounded-3xl object-cover"
             />
@@ -259,12 +259,12 @@ export default function Home() {
             <li><span className="font-medium">WhatsApp:</span> Available</li>
           </ul>
         </div>
-        <div className="card bg-slate-900 p-6 text-white">
+        <div className="card bg-white p-6">
           <div className="mb-3 flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/20 text-white">⏰</div>
-            <p className="font-bold">Operational Times</p>
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-500 text-white">⏰</div>
+            <p className="font-bold text-slate-900">Operational Times</p>
           </div>
-          <ul className="space-y-1 text-sm text-slate-300">
+          <ul className="space-y-1 text-sm text-slate-900">
             <li><span className="font-medium">Monday:</span> 8:00 AM–2:00 AM</li>
             <li><span className="font-medium">Tuesday:</span> 8:00 AM–2:00 AM</li>
             <li><span className="font-medium">Wednesday:</span> 8:00 AM–2:00 AM</li>
@@ -275,20 +275,24 @@ export default function Home() {
       </section>
 
       <section className="mt-10 grid gap-6 lg:grid-cols-[1fr_2fr]">
-        <div className="card bg-slate-900 p-6 text-white">
-          <p className="text-lg font-bold">McDonald's</p>
-          <p className="mt-2 text-sm">South London</p>
-          <p className="mt-4 text-sm text-slate-300">Tooley St, London Bridge, London SE1 2TF, United Kingdom</p>
-          <p className="mt-2 text-sm text-slate-300">Phone number</p>
-          <p className="text-sm font-medium">+934443-43</p>
-          <p className="mt-2 text-sm text-slate-300">Website</p>
-          <p className="text-sm font-medium">http://mcdonalds.uk/</p>
+        <div className="card bg-white p-6">
+          <p className="text-lg font-bold text-slate-900">McDonald's</p>
+          <p className="mt-2 text-sm text-slate-900">South London</p>
+          <p className="mt-4 text-sm text-slate-900">Tooley St, London Bridge, London SE1 2TF, United Kingdom</p>
+          <p className="mt-2 text-sm text-slate-900">Phone number</p>
+          <p className="text-sm font-medium text-slate-900">+934443-43</p>
+          <p className="mt-2 text-sm text-slate-900">Website</p>
+          <p className="text-sm font-medium text-slate-900">http://mcdonalds.uk/</p>
         </div>
-        <div className="card relative h-64 overflow-hidden bg-slate-200 lg:h-auto">
+        <div className="card relative h-64 overflow-hidden lg:h-auto">
           <div className="absolute right-4 top-4 flex h-12 w-12 items-center justify-center rounded-full bg-brand-500 text-white shadow-lg">
             ↗
           </div>
-          <div className="h-full w-full bg-gradient-to-br from-blue-100 to-green-100"></div>
+          <img 
+            src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&h=400&fit=crop" 
+            alt="McDonald's Restaurant Location"
+            className="h-full w-full object-cover"
+          />
         </div>
       </section>
 
@@ -334,7 +338,7 @@ export default function Home() {
         <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-6">
           <div className="card overflow-hidden">
             <img 
-              src="https://images.pexels.com/photos/5920742/pexels-photo-5920742.jpeg?auto=compress&cs=tinysrgb&w=200" 
+              src="https://images.pexels.com/photos/11459428/pexels-photo-11459428.jpeg?auto=compress&cs=tinysrgb&w=200"
               alt="McDonald's"
               className="h-24 w-full object-cover"
             />
